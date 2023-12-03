@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Emart || HomePage{% endblock %}
+
+{% block content %}
+<div class="brand-section row justify-content-between mt-4 me-4">
+
+      <div class="col-md-4">
+        <div>&nbsp;</div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="search-input">
+          <form role="search" class="d-flex align-items-center" action="">
+            <input id="search" type="search" class="form-control w-75" placeholder="search brand product..." autofocus
+              required />
+            <button type="submit" class="btn btn-primary ms-2"><i class="bx bx-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <div class="row">
+      
+    </div> -->
+    <div class="text">
+      <div class="brand-section">
+        <hr />
+
+        <div class="trending">
+          <h1 class="title"></h1>
+        </div>
+
+
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/phone.jpg' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href=""><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/4.png' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href=""><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/3.png' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href=""><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/2.png' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href="cart"><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/5.png' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href=""><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="cart.html" style="text-decoration: none;">
+            <div class="badge">Hot</div>
+            <div class="product-tumb">
+              <img src="{% static 'assets/img/google.jpg' %}" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory">Category</span>
+              <h4><a href="">New product</a></h4>
+              <div class="product-bottom-details">
+                <div class="product-price">NGN230</div>
+                <div class="product-links">
+                  <a href="cart.html">Buy</a>
+                  <a href=""><i class="bx bx-heart"></i></a>
+                  <a href=""><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
+

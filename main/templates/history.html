@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Emart || HomePage{% endblock %}
+
+{% block content %}
+   <section class="body">
+        <div class="wrapper rounded">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+                <ul class="nav nav-tabs w-75">
+                    <li class="nav-item"> <a class="nav-link active" href="#history">History</a> </li>
+                </ul> 
+            </div>
+            <div class="table-responsive mt-3">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">status</th>
+                            <th scope="col">Reference ID</th>
+                            <th scope="col" class="d-flex justify-content-end align-items-right">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row"> <span class=" mr-1"></span> Iphone 14 pro </td>
+                            <td class="text-muted">12 Jul 2020, 12:30 PM</td>
+                            <td><span class="fa ">Delivered</span></td>
+                            <td><span class="fa ">uefgiwue834245234hb2343hb</span></td>
+                            <td class="d-flex justify-content-end align-items-right">                                     
+                                <span class="fa long-arrow-up mr-1"></span> $52.9 </td>         
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-between align-items-center results"> 
+                <div class="pt-3">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item disabled"> <a class="page-link" href="#" aria-label="Previous"> <span
+                                        aria-hidden="true">&lt;</span> </a> </li>
+                            <li class="page-item"> <a class="page-link" href="#" aria-label="Next"> <span
+                                        aria-hidden="true">&gt;</span> </a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}  
+

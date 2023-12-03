@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Emart || Product-details{% endblock %}
+{% block content %}
+    <div class="brand-section">
+        <div class="search-input">
+            <form onsubmit="event.preventDefault();" role="search" class="d-flex align-items-center" action="">
+                <input id="search" type="search" class="form-control w-75" placeholder="search brand product..." autofocus required />
+                <button type="submit" class="btn btn-primary ms-2"><i class="bx bx-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <section class="body">
+        <div class="px-4 py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="details">
+                        <div class="detail-card">
+                            <div class="img-slide">
+                                <img src="{% static 'assets/img/phone.jpg' %}" alt="....">
+                            </div>
+                            <div class="product-info mt-4">
+                                <h2>Product name</h2>
+                                <h3>Description</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellendus quidem perferendis quae,<br> placeat rerum dicta,
+                                    dolores accusamus qui, fuga odit impedit odio molestiae! Commodi .
+                                    enim <br>incidunt odio consequatur. Adipisci, eos!
+                                </p>
+                            </div>
+                            <div class="comment">
+                                <ul style="list-style: none;">
+                                    <li>
+                                        <h5>username</h5>
+                                        Nice product
+                                        <h6>12:51pm 01.12.23</h6>
+                                    </li>
+                                </ul>
+                                <form action="">
+                                    <input type="text" placeholder="Comments" class="form-control w-75 me-2">
+                                    <button class="btn btn-primary mt-2 w-25">Post</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="options" id="Cart">
+                        <h3>
+                            Cart
+                        </h3>
+                        <hr>
+
+                        <div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div>
+                                                <img src="{% static 'assets/img/phone.jpg' %}"
+                                                    class="img-fluid rounded-3" alt="Shopping item"
+                                                    style="width: 65px;">
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5>Iphone 11 pro</h5>
+                                                <p class="small mb-0">256GB, Navy Blue</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div style="width: 50px;">
+                                                <h5 class="fw-normal mb-0">2</h5>
+                                            </div>
+                                            <div style="width: 80px;">
+                                                <h5 class="mb-0">$900</h5>
+                                            </div>
+                                            <div class="opt-btn">
+                                                <ul class="d-flex" style="list-style: none;">
+                                                    <li class="px-1"><a href="#" id="add">+</a></li>
+                                                    <li class="bx bx-trash"><a href="#" id="Del"></a></li>
+                                                    <li class="px-1"><a href="#" id="Subtract">-</a></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#!" style="color: #cecece;"><i
+                                                    class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div>
+                                                <img src="{% static 'assets/img/phone.jpg' %}"
+                                                    class="img-fluid rounded-3" alt="Shopping item"
+                                                    style="width: 65px;">
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5>Iphone 11 pro</h5>
+                                                <p class="small mb-0">256GB, Navy Blue</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div style="width: 50px;">
+                                                <h5 class="fw-normal mb-0">2</h5>
+                                            </div>
+                                            <div style="width: 80px;">
+                                                <h5 class="mb-0">$900</h5>
+                                            </div>
+                                            <div class="opt-btn">
+                                                <ul class="d-flex" style="list-style: none;">
+                                                    <li class="px-1"><a href="#" id="add">+</a></li>
+                                                    <li class="bx bx-trash"><a href="#" id="Del"></a></li>
+                                                    <li class="px-1"><a href="#" id="Subtract">-</a></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#!" style="color: #cecece;"><i
+                                                    class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div>
+                                                <img src="{% static 'assets/img/phone.jpg' %}"
+                                                    class="img-fluid rounded-3" alt="Shopping item"
+                                                    style="width: 65px;">
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5>Iphone 11 pro</h5>
+                                                <p class="small mb-0">256GB, Navy Blue</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div style="width: 50px;">
+                                                <h5 class="fw-normal mb-0">2</h5>
+                                            </div>
+                                            <div style="width: 80px;">
+                                                <h5 class="mb-0">$900</h5>
+                                            </div>
+                                            <div class="opt-btn">
+                                                <ul class="d-flex" style="list-style: none;">
+                                                    <li class="px-1"><a href="#" id="add">+</a></li>
+                                                    <li class="bx bx-trash"><a href="#" id="Del"></a></li>
+                                                    <li class="px-1"><a href="#" id="Subtract">-</a></li>
+                                                </ul>
+                                            </div>
+                                            <a href="#!" style="color: #cecece;"><i
+                                                    class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>&nbsp;</div>
+                                <button class="btn btn-primary">Proceed to Checkout</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <!-- <button class="btn btn-primary">Button</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
